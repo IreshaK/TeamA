@@ -1,3 +1,5 @@
+const prompt = require('prompt-sync')();
+
 function calcAddition()
 {
     let num1 = parseFloat(prompt('enter 1st number : '))      
