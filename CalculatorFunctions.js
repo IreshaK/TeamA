@@ -1,13 +1,58 @@
 const prompt = require('prompt-sync')();
 
-function calcAddition()
+function calculator()
 {
     let num1 = parseFloat(prompt('enter 1st number : '))      
     let num2 = parseFloat(prompt('enter 2nd number : '))
-    let op = prompt('enter operator : ')
-    let ans = 0;
-    if (op == '+')
+    let operator = prompt('enter operator : ')
+    let answer = 0;
+    
+    addition()    
     {
-        return ans=num1+num2
+    if (operator == '+')
+    {
+        return answer = num1 + num2;
     }
+    }
+
+    subtraction()
+    {
+    if (operator == '+')
+    {
+        return answer = num1 + num2;
+    }
+    }
+
+    multiplication()
+    {
+    if (operator == '*')
+    {
+        return answer = num1 * num2;
+    }
+    }
+
+function calcDivision()
+{
+    let num1 = parseFloat (prompt ('enter 1st number : '))      
+    let num2 = parseFloat (prompt ('enter 2nd number : '))
+    let operator = prompt ('enter operator : ')
+    let answer = 0;
+    if (operator == '/')
+    {
+        return answer = num1 / num2;
+    }
+}
+
+function calcPower()
+{
+    let num1 = parseFloat (prompt ('enter 1st number : '))      
+    let num2 = parseFloat (prompt ('enter 2nd number : '))
+    let operator = prompt ('enter operator : ')
+    let answer = 0;
+    if (operator == '**')
+    {
+        return answer = num1 ** num2;
+    }
+}
+
 }
